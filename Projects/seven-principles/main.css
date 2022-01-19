@@ -2,8 +2,44 @@ body {
     background-color: #EEEBDD;
         margin-top: 100px;
         margin-bottom: 100px;
-        margin-right: 150px;
+        margin-right: 135px;
         margin-left: 150px;
         font-family: 'Space Grotesk', sans-serif;
       }
+
+h1 {
+  font-weight: 700;
+  font-size: 6.5vw;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 2.5vw;
+}
+
+h4 {
+  font-weight: 700;
+  font-size: 1.5vw;
+}
+
+img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  float: left;
+  margin: 10px;
+  margin-right: 1.5vw;
+  margin-top: 0.5vw;
+  margin-left: 0vw;
+}
+
+.pic2 {
+  float: right;
+  margin-top: -0.25vw;
+}
+
+ol {
+  font-size: 1.25vw;
+  margin-bottom: 15vw;
+}
+
 
