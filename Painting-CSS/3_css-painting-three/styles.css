@@ -31,28 +31,22 @@ body {
 .gold{
     background-color:darkgoldenrod;
     display:inline-block;
-    height:275px;
-    width:50px;
+    height:300px;
+    width:25px;
 }
 
-#blackhalf{
-    height:25px;
-    display:inline-block;
+.blacktall {
+    background-color: black;
 }
 
-#goldhalf{
-    width:20px;
-    display:inline-block;
+.whitetall {
+    background-color: whitesmoke;
 }
 
 #blackwide{
-    width:60px;
-    height:275px;
-    display:inline-block;
+    width: 50px;
 }
 
-#long{
-    width:25px;
-    height:275px;
-    display:inline-block;
+#goldwide{
+    width:50px;
 }
