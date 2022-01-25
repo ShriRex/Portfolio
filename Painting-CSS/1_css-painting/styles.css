@@ -1,0 +1,68 @@
+html{
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-color: lightgray;
+    margin:0px;
+    padding:0px;
+}
+
+#img{
+ width:300px;   
+ margin-left: 27vw;
+ margin-top: 12vw;
+}
+
+div {
+    width: 200px;
+}
+
+/*This is the blue shape*/
+
+.container {
+    
+}
+
+#blue{
+   background-color:#648a87;
+    height:58px;
+    width: 300px;
+    margin-left: 50vw;
+    margin-top: -24vw;
+}
+
+/*COMPLETE CSS BELOW*/
+
+#yellow{
+    background-color:#dfc64b;
+    height:45px;
+    width: 300px;
+    margin-left: 50vw;
+}
+
+#black{
+    background-color:#131b20;
+    height:55px;
+    width: 300px;
+    margin-left: 50vw;
+}
+
+#gold{
+    background-color:#ba9500;
+    height:47px;
+    width: 300px;
+    margin-left: 50vw;
+}
+
+#green{
+ 
+    background-color:#626d39;
+    height:90px;
+    width: 300px;
+    margin-left: 50vw;
+}
+
+

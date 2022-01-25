@@ -96,3 +96,38 @@ a {
 h3 {
   color: red;
 }
+
+hr {
+  color: red;
+  border-width: 0.45vw; 
+  border-style: solid;
+  margin-top: -0.2vw;
+}
+
+.line {
+  background: red;
+  animation: fade 10s alternate-reverse infinite;
+  width: 1000vw;
+  height: 1vw;
+  margin: -10vw;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+@keyframes fade {
+  0% {background: red;}
+  25% {
+background: blue;
+  }
+  50% {
+    background: green;
+  }
+  75% {
+    background: yellow;
+  }
+  100% {
+    background: red;
+  }
+
+}
+

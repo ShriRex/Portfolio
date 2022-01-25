@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+#image {
+    width: 400px;
+    display: block;
+}
+
+
+/*COMPLETE THE CSS BELOW*/
+
+
+/*Hint: only add one property to .container*/
+
+.container {
+    width: 100px;
+}
+
+.green {
+
+}
+
+.blue {
+
+}
+
+.pink {
+
+}
+
+.orange {
+
+}
+
+.yellow {
+
+}
+
+.red {
+
+}
