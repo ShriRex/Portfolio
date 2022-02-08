@@ -173,6 +173,17 @@ body {
 	bottom: 0;
   }
 
+  #triangle-bottomleft2 {
+	width: 0;
+	height: 0;
+	border-bottom: 300px solid #64b1e5;
+	border-right: 300px solid transparent;
+	position: absolute;
+	left: 200px;
+	top: 300px;
+  }
+
+
   #triangle-bottomright2 {
 	width: 0;
 	height: 0;
