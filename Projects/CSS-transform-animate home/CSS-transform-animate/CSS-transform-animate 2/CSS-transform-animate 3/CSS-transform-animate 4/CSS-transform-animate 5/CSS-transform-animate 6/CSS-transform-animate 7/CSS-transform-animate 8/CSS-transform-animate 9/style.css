@@ -1,0 +1,244 @@
+body {
+    width: 100vw;   
+    background-color: black;
+}
+
+body {
+	background: white;
+	overflow: hidden;
+	font-size: 4vw;
+  font-family: 'Times New Roman', Times, serif;
+	color: black;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  }
+  
+  span {
+    display: inline-block;
+	margin-top: 20vw;
+  letter-spacing: 0.25vw;
+  }
+
+.one{
+  animation-name: pleasework;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework{
+  0% {
+    transform: rotate(0deg) ;
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+
+100% {
+  transform: rotate(180deg);
+}
+}
+
+.two{
+  animation-name: pleasework2;
+  animation-duration: 2.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pleasework2{
+  0% {
+    transform: rotate(0deg) ;
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+
+100% {
+  transform: rotate(-210deg);
+}
+}
+
+.three{
+  animation-name: pleasework3;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework3{
+  0% {
+    transform: rotate(180deg) ;
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+
+100% {
+  transform: rotate(-180deg);
+}
+}
+
+.four{
+  animation-name: pleasework4;
+  animation-duration: 3.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework4{
+  0% {
+    transform: rotate(90deg) ;
+  }
+  50% {
+    transform: rotate(330deg);
+  }
+
+100% {
+  transform: rotate(-90deg);
+}
+}
+
+.five{
+  animation-name: pleasework5;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pleasework5{
+  0% {
+    transform: rotate(0deg) ;
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+
+100% {
+  transform: rotate(-90deg);
+}
+}
+
+.seven{
+  animation-name: pleasework6;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework6 {
+  0% {
+    transform: rotate(180deg) ;
+  }
+  50% {
+    transform: rotate(-330deg);
+  }
+
+100% {
+  transform: rotate(-120deg);
+}
+}
+
+.eight{
+  animation-name: pleasework8;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes pleasework8 {
+  0% {
+    transform: rotate(330deg) ;
+  }
+  50% {
+    transform: rotate(60deg);
+  }
+
+100% {
+  transform: rotate(0deg);
+}
+}
+
+.nine{
+  animation-name: pleasework9;
+  animation-duration: 2.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework9 {
+  0% {
+    transform: rotate(300deg) ;
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+
+100% {
+  transform: rotate(120deg);
+}
+}
+
+.ten{
+  animation-name: pleasework10;
+  animation-duration: 2.25s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes pleasework10 {
+  0% {
+    transform: rotate(0deg) ;
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+
+100% {
+  transform: rotate(30deg);
+}
+}
+
+  header {
+    position: fixed;
+      bottom: 0;
+    width: 99vw;
+    display: flex;
+    padding: 5px;
+    z-index: 1000;
+    padding-bottom: 1.25vw;
+  }
+  
+  h1, nav, a {
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  
+  
+.home {
+    margin-left: -27vw;
+}
+  
+  .next {
+	  margin-right: 2.25vw;
+    color: darkgrey;
+  }
+
+  

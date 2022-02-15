@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;   
+    background-color: white;
+	overflow: hidden;
+	font-size: 2vw;
+    font-family: 'Open Sans', sans-serif;
+	color: black;
+	text-align: center;
+	color: transparent;
+	backface-visibility: hidden;
+	margin-left: 2.5vw;
+  }
+  
+  span {
+	display: inline-block;
+	margin-top: 22vw;
+	text-shadow: 0 0 0 black;
+	animation: smoky 5s;
+	animation-iteration-count: infinite;
+	padding: -0.1;
+  }
+
+  .none {
+	  animation: none;
+  }
+
+  span:nth-child(1){
+	animation-delay:0s;
+  }
+  span:nth-child(2){
+	animation-delay:0.1s;
+  }
+  span:nth-child(3){
+	animation-delay:0.2s;
+  }
+  span:nth-child(4){
+	animation-delay:0.3s;
+  }
+  span:nth-child(5){
+	animation-delay:0.4s;
+  }
+  span:nth-child(6){
+	animation-delay:0.5s;
+  }
+  span:nth-child(7){
+	animation-delay:0.6s;
+  }
+  span:nth-child(8){
+	animation-delay:0.7s;
+  }
+  span:nth-child(9){
+	animation-delay:0.8s;
+  }
+  span:nth-child(10){
+	animation-delay:0.9s;
+  }
+  span:nth-child(11){
+	animation-delay:1s;
+  }
+  
+  span:nth-child(12){
+	animation-delay:1s;
+  }
+
+  span:nth-child(13){
+	animation-delay:1s;
+  }
+
+
+
+  
+  @keyframes smoky {
+	0%{
+		filter: blur(0)
+	  }
+		40%{
+		filter: blur(20px);
+	  }
+		80%{
+		filter: blur(0px)
+	  }
+		100%{
+		filter: blur(0px)
+	  }
+  }
+  
+  @keyframes smoky-mirror {
+	90% {
+	  text-shadow: 0 0 40px black; }
+	to {
+	  transform:
+		translate3d(18rem,-8rem,0)
+		rotate(-40deg) 
+		skewX(-70deg)
+		scale(2);
+	   text-shadow: 0 0 20px black;
+	  opacity: 0;
+	}
+  }
+
+
+header {
+	position: fixed;
+    bottom: 0;
+	width: 99vw;
+	display: flex;
+	padding: 5px;
+	z-index: 1000;
+	padding-bottom: 1.25vw;
+}
+
+h1, nav, a {
+	flex: 1;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
+}
+
+nav {
+	text-align: right;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 2vw;
+}
+
+
+.next {
+  margin-right: 3.5vw;
+}

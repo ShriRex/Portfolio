@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    background-color: white;
+    color: black; 
+    font-size: 48px;
+    max-height: 10vw;
+    overflow: hidden;
+}
+
+div {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p {
+font-family: cursive;
+font-size: 6vw;
+display: inline-block;
+position: relative;
+}
+
+.first {
+    animation: alternate;
+animation-name: test;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+margin-bottom: -10vw;
+top: 10.5vw;
+}
+/* Step 1: Mess around with this animation setup. See what happens */
+@keyframes test {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+.second {
+    animation: alternate;
+    animation-iteration-count: infinite;
+animation-name: test2;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+margin-bottom: -10vw;
+top: 10.5vw;
+
+}
+
+@keyframes test2 {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+
+.first1 {
+    animation: alternate;
+animation-name: test;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+bottom: -8vw;
+}
+
+@keyframes test {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 100%;
+    }
+
+    100% {
+        opacity: 0%;
+    }
+}
+
+.second1 {
+    animation: alternate;
+    animation-iteration-count: infinite;
+animation-name: test2;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+bottom: -8vw;
+}
+@keyframes test2 {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.middle {
+    bottom: -10vw;
+}
+
+header {
+    position: fixed;
+   bottom: 0;
+    width: 99vw;
+    display: flex;
+    padding: 5px;
+    z-index: 1000;
+    padding-bottom: 1.25vw;
+}
+
+h1, nav, a {
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.next {
+    margin-right: 1vw;
+}

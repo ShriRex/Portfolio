@@ -1,0 +1,93 @@
+body {
+    width: 100vw;   
+    background-color: black;
+}
+
+body {
+	background: white;
+	font-size: 1.5vw;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  overflow: hidden;
+  }
+
+
+  
+p { 
+    border-right: .1em solid white;
+    margin-top: 20vw;
+    margin-left: 1vw;
+    width: 27vw;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 10s infinite steps(38),
+               blink-caret .5s step-end infinite alternate;
+
+  }
+
+  @keyframes typing { 
+    0% { width: 0; } 
+    80% {
+width: 27vw;
+    }
+}
+  @keyframes blink-caret { 50% { border-color: transparent; } }
+
+  
+  header {
+    position: fixed;
+      bottom: 0;
+    width: 99vw;
+    display: flex;
+    padding: 5px;
+    z-index: 1000;
+    padding-bottom: 1.25vw;
+  }
+  
+  h1, nav, a {
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  
+  
+  .home {
+    margin-left: -31vw;
+  }
+  
+  .next {
+	  margin-right: 2.25vw;
+  }
+
+.um{
+    background-color: black;
+    width: 30vw;
+    height: 100vw;
+    align-items: center;
+  }
+
+.um2 {
+  background-color: darkgrey;
+  opacity: 85%;
+  height: 2.05vw;
+  width: 30vw;
+  z-index: -1;
+}

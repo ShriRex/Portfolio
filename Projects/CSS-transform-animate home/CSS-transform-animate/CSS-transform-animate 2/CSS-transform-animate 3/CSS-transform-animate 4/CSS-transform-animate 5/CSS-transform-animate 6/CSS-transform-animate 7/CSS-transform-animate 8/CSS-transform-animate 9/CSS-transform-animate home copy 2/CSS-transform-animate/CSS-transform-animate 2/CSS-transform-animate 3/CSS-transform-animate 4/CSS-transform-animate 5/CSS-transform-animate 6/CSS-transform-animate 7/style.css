@@ -1,0 +1,82 @@
+body {
+    width: 100vw;   
+	height: 50vw;
+}
+
+body {
+	background: white;
+	font-size: 5vw;
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	overflow: hidden;
+  }
+
+span {
+	animation-name: text;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes text {
+	0% {
+		font-size: 550vw;
+	}
+
+	40% {
+		font-size: 2vw;
+	}
+
+	100% {
+		font-size: 550vw;
+	}
+}
+
+header {
+    position: fixed;
+      bottom: 0;
+    width: 99vw;
+    display: flex;
+    padding: 5px;
+    z-index: 1000;
+    padding-bottom: 1.25vw;
+  }
+  
+  h1, nav, a {
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+  }
+  
+  nav {
+    text-align: right;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 2vw;
+  }
+  
+  
+  .home {
+    margin-left: -31vw;
+  }
+  
+  .next {
+	  margin-right: 2.25vw;
+  }
+
+
+
+
+
+
+

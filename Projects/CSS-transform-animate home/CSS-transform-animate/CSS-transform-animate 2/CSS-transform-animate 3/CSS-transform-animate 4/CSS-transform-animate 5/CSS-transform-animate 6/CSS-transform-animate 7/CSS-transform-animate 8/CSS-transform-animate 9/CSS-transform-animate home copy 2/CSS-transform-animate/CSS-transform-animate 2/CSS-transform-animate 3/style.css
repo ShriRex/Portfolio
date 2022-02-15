@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;   
+    background-color: white;
+}
+
+flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+  border-radius: 1px;
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 427px;
+}
+.flip-container {
+
+  margin-left: 40vw;
+  margin-top: 8vw;
+  align-content: center;
+
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front {
+	background: black;
+
+}
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: black;
+}
+
+.front .name  {
+	font-size: 7vw;
+	display: inline-block;
+	color: white; 
+    font-family: goodlife-brush, sans-serif;
+	font-weight: 400;
+font-style: normal;
+	border-radius: 5px;
+	position: absolute;
+  padding: 1vw;
+  padding-left: 1.75vw;
+}
+
+.back {
+	font-size: 7vw;
+	display: inline-block;
+	color: white; 
+    font-family: goodlife-brush, sans-serif;
+	font-weight: 400;
+font-style: normal;
+	border-radius: 5px;
+	position: absolute; 
+	background-color: black;
+	text-align: right;
+	border-color: black;
+}
+
+.name2 {
+	padding: 1vw;
+}
+
+
+
+header {
+	position: fixed;
+    bottom: 0;
+	width: 99vw;
+	display: flex;
+	padding: 5px;
+	z-index: 1000;
+	padding-bottom: 1.25vw;
+}
+
+h1, nav, a {
+	flex: 1;
+	font-family: sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: black;
+}
+
+nav {
+	text-align: right;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: 2vw;
+}
+
+
+
+.next {
+  margin-right: 1vw;
+}

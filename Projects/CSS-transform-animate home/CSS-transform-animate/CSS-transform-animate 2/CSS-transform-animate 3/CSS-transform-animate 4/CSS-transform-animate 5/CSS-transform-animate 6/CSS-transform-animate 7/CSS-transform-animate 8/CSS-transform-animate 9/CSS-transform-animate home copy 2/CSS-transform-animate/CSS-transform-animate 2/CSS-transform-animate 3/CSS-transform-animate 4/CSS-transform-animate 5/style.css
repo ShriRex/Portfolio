@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;   
+    background-color: white;
+}
+
+body {
+	background: white;
+	overflow: hidden;
+	font-size: 5vw;
+    font-family: serif;
+	color: black;
+	text-align: center;
+  }
+  
+  div.smileyface {
+	width: 300px;
+	height: 300px;
+	position: relative;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	display: block;
+	display: flex;
+	margin-left: 42%;
+	margin-top: 10%;
+	}
+
+	
+p.eyes {
+	height: 25px;
+	width: 25px;
+	background: black;
+	position: absolute;
+	border-radius: 50%;
+	top: 7.5vw;
+	}	
+	
+	p.eyes.lefteye {
+		left: 100px;
+		margin-left: -3vw;
+		}
+		
+	p.eyes.righteye {
+		right: 100px;
+		margin-right: 3vw;
+		}
+		
+div.smile {
+	width: 160px;
+	height: 40px;
+	border: 10px solid black;
+	border-top: 0;
+	background: white;
+	border-radius: 0 0 110px 110px / 0 0 60px 60px;
+	position: absolute;
+	bottom: 90px;
+	left: 2vw;
+	animation-name: frown;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: linear;
+	animation-delay: 2s;
+}
+
+@keyframes frown{
+
+50% {
+	transform: rotate(180deg);
+}
+
+100% {
+	transform: rotate(360deg);
+}
+
+}
+
+.decide {
+	font-size: 2vw;
+	margin-top: -3vw;
+	left: 50%;
+}
+
+header {
+    position: fixed;
+   bottom: 0;
+    width: 99vw;
+    display: flex;
+    padding: 5px;
+    z-index: 1000;
+    padding-bottom: 1.25vw;
+}
+
+h1, nav, a {
+    flex: 1;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: black;
+}
+
+nav {
+    text-align: right;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+	font-size: 2vw;
+}
+
+
+.home {
+    margin-left: -30vw;
+}
+
+.next {
+	margin-right: 1vw;
+  }
+
