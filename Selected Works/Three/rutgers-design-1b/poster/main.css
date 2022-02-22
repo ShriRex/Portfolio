@@ -1,0 +1,1007 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+height: 725px;
+background: linear-gradient(324deg, #75bce3 4%,   transparent 4%) -70px 43px,
+linear-gradient( 36deg, #75bce3 4%,   transparent 4%) 30px 43px,
+linear-gradient( 72deg, #eef1f0 8.5%, transparent 8.5%) 30px 43px,
+linear-gradient(288deg, #eef1f0 8.5%, transparent 8.5%) -70px 43px,
+linear-gradient(216deg, #eef1f0 7.5%, transparent 7.5%) -70px 23px,
+linear-gradient(144deg, #eef1f0 7.5%, transparent 7.5%) 30px 23px,
+
+linear-gradient(324deg, #75bce3 4%,   transparent 4%) -20px 93px,
+linear-gradient( 36deg, #75bce3 4%,   transparent 4%) 80px 93px,
+linear-gradient( 72deg, #eef1f0 8.5%, transparent 8.5%) 80px 93px,
+linear-gradient(288deg, #eef1f0 8.5%, transparent 8.5%) -20px 93px,
+linear-gradient(216deg, #eef1f0 7.5%, transparent 7.5%) -20px 73px,
+linear-gradient(144deg, #eef1f0 7.5%, transparent 7.5%) 80px 73px;
+background-color: #75bce3;
+background-size: 100px 100px;
+}
+
+
+
+.cassette {
+  position:relative;
+  margin: 0 auto;
+  margin-top: 23px; 
+  background:#444444;
+  border-radius:32px;
+  width: 1068px;
+  height: 670px;
+  margin-left: 180px;
+}
+
+.cassette:before {
+  position:absolute;
+  z-index:40;
+  bottom:40px;
+  left:-20.5px;
+  content:"";
+  height:180px;
+  border-right: #232323   solid 20px;
+  border-top:transparent solid 40px;
+  border-bottom:transparent solid 40px;
+}
+.cassette:after {
+  position:absolute;
+  z-index:40;
+  bottom:40px;
+  right: -20.5px;
+  content:"";
+  height:180px;
+  border-left: #232323   solid 20px;
+  border-top:transparent solid 40px;
+  border-bottom:transparent solid 40px;
+}
+
+.screw {
+  position: absolute;
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: gray;
+  border-radius: 75%; 
+}
+.screw:nth-child(1) {
+  top: 10px;
+  left: 20px;
+}
+
+.screw:nth-child(2) {
+  top: 615px;
+  left: 20px;
+}
+
+.screw:nth-child(3) {
+  top: 615px; 
+  left: 1025px; 
+}
+
+.screw:nth-child(4) {
+  top: 10px; 
+  left: 1025px;
+}
+
+
+
+.screw-inner:before, .screw-inner:after {
+  content: "";
+  position: absolute;
+  z-index: 4;
+  background: darkgray;
+  width: 20px;
+  border-radius: 4px;
+}
+.screw-inner:before {
+ left: 50%;
+ width: 40%;
+ margin-left: -20%;
+ height: 100%;
+}
+.screw-inner:after {
+ top: 50%;
+ height: 40%;
+ margin-top: -20%;
+ width: 100%;
+}
+
+.screw-inner {
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%; 
+  top: 6px;
+  left: 6px;
+  transform: rotate(50deg); 
+}
+
+.screwlines {
+  position: absolute;
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%; 
+  top: 6px;
+  left: 6px;
+  transform: rotate(50deg);
+} 
+.screwlines:before, .screwlines:after {
+     content: "";
+     position: absolute;
+     z-index: 2;
+     background: black;
+     width: 10px;
+     border-radius:2px;
+   }
+   .screwlines:before {
+    left: 50%;
+    width: 40%;
+    margin-left: -20%;
+    height: 100%;
+  }
+
+  .screwlines:after {
+    top: 50%;
+    height: 40%;
+    margin-top: -20%;
+    width: 100%;
+  }
+
+
+
+ 
+
+.outer-sticker {
+  background: gray; 
+  width: 948px;
+  height: 430px;
+  position: relative;
+  left: 28%;
+  margin-left: -237px;
+  border-radius:32px;
+  position: relative;
+  margin-top: 50px;
+  display: inline-block;  
+}
+
+.info {
+    font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  line-height: 5px;
+  left: 55%;
+  margin-left: 10px; 
+  margin-top: 2px;
+text-align: left;
+}
+
+.infotwo {
+    font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  line-height: 5px;
+  left: 55%;
+  margin-left: 10px; 
+  margin-top: -15px;
+  text-align: left;
+}
+
+.infothree {
+    font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  line-height: 5px;
+  left: 55%;
+  margin-left: 10px; 
+  margin-top: -15px;
+  text-align: left;
+}
+
+.sticker {
+  background: whitesmoke;
+  margin: 0 auto;
+  width: 932px;
+  height: 410px;
+  border-radius:32px;
+  position: relative;
+  margin-top: 10px;
+  }
+
+  .sticker-header {
+    float: left;
+    padding: 20px 40px 0px;
+    width: 100%;
+  }
+
+   .side {
+      font-size: 75px;
+      color: black;
+      padding: 0 -10px 2px;
+      line-height: 75px;
+      margin-top: 9px;
+      float: left;
+      border-radius: 10px;
+        font-family: "Karla", sans-serif;
+      font-weight: bold;
+    }
+
+    a:link, a:visited {
+      background-color: #f44336;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    a:hover, a:active {
+      background-color: black;
+
+    }
+
+    .back:hover {
+      background-color: black;
+      content: 'back';
+    }
+
+    .notes {
+      float: left;
+      margin-left: 30px;
+      width: 748px;
+    }
+
+      hr {
+        border: 0;
+        height: 5px;
+        background: gray;
+        margin-bottom: 30px;
+        margin-top: 10px;
+      }
+    
+      .sticker-center {
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        margin-top: -10px;
+      }
+
+        .stripe-a {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+20%  {background: orange;}
+40%  {background: cyan;}
+60%  {background: greenyellow;}
+80%  {background: blue;}
+100% {background-color: magenta;}
+}
+
+
+        .stripe-b {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+          animation-duration: 6s;
+          animation-iteration-count: infinite;
+          animation-delay: 0.5s;
+          animation-direction: alternate-reverse;
+          }
+          
+          @keyframes example {
+          0%   {background-color: red;}
+          20%  {background: orange;}
+          40%  {background: cyan;}
+          60%  {background: greenyellow;}
+          80%  {background: blue;}
+          100% {background-color: magenta;}
+          }
+          
+        .stripe-c {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+20%  {background: orange;}
+40%  {background: cyan;}
+60%  {background: greenyellow;}
+80%  {background: blue;}
+100% {background-color: magenta;}
+}
+
+
+        .stripe-d {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+20%  {background: orange;}
+40%  {background: cyan;}
+60%  {background: greenyellow;}
+80%  {background: blue;}
+100% {background-color: magenta;}
+}
+
+        .stripe-e {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+animation-delay: 0.5s;
+animation-direction: alternate-reverse;
+}
+
+@keyframes example {
+0%   {background-color: red;}
+20%  {background: orange;}
+40%  {background: cyan;}
+60%  {background: greenyellow;}
+80%  {background: blue;}
+100% {background-color: magenta;}
+}
+
+
+        .stripe-f {
+          background: transparent;
+          display: inline-block;
+          width: 100%;
+          height: 27.25px;
+          animation-name: example;
+          animation-duration: 6s;
+          animation-iteration-count: infinite;
+          animation-delay: 0.5s;
+          animation-direction: alternate-reverse;
+          }
+          
+          @keyframes example {
+          0%   {background-color: red;}
+          20%  {background: orange;}
+          40%  {background: cyan;}
+          60%  {background: greenyellow;}
+          80%  {background: blue;}
+          100% {background-color: magenta;}
+          }
+          
+
+       
+
+        .cassete-center {
+          background:#444444;
+          margin: 0 auto;
+          width:636px;
+          height: 184px;
+          border-radius: 32px;
+          position: absolute;
+          top: 0;
+          left:33%;
+          margin-left: -159px;
+        }
+
+          .circle {
+            border-radius: 50%;
+            width: 130px;
+            height: 130px; 
+            background: gray;
+            position: absolute;
+            top: 14%;
+            animation-name: spin;
+            animation: spin 2s infinite linear;
+            left: 30px;
+            animation-direction: alternate;
+          } 
+
+          .circletwo {
+            border-radius: 50%;
+            width: 130px;
+            height: 130px; 
+            background: gray;
+            position: absolute;
+            top: 14%;
+            animation-name: spin;
+            animation: spin 2s infinite linear;
+            right: 30px;
+            animation-direction: alternate;
+          }
+
+          .smallcircle {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px; 
+            background: lightblue;
+            position: absolute;
+            top: 13%;
+            animation-name: spin;
+            animation: spin 2s infinite linear;
+            left: 15px;
+            animation-direction: alternate;
+          } 
+
+          .smallcircletwo {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px; 
+            background:lightblue;
+            position: absolute;
+            top: 13%;
+            animation-name: spin;
+            animation: spin 2s infinite linear;
+            right: 15px;
+            animation-direction: alternate;
+          }
+
+          .smallercircle {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px; 
+            background: white; 
+            position: absolute;
+            top: 10%;
+            left: 10px;
+            -webkit-animation: roll 2s infinite linear;
+            animation: roll 2s infinite linear;
+  }
+  
+  @-webkit-keyframes roll {
+    0% {  transform: rotateZ(0deg); }
+    100% { transform: rotateZ(360deg); }  
+  }
+
+
+          .smallercircletwo {
+            border-radius: 50%;
+            width: 80px;
+            height: 80px; 
+            background:white;
+            position: absolute;
+            top: 10%; 
+            right: 10px;
+            transform: rotate(30deg);
+            -webkit-animation: roll 2s infinite linear;
+                    animation: roll 2s infinite linear;
+          }
+          
+          @-webkit-keyframes roll {
+            0% {  transform: rotateZ(0deg); }
+            100% { transform: rotateZ(360deg); }  
+          }
+
+          i {
+            display: block;
+            position: absolute;
+            width: 8px;
+            height: 40%;
+            left: 48%;
+            top: -5%;
+            border-top: solid 15px lightblue;
+            transform-origin: 35% 90%;
+            z-index: 999;
+          }
+         
+        .ctwo {
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(30deg);
+        }
+
+        .cthree {
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(60deg);
+        }
+
+        .cfour{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(90deg);
+        }
+
+        .cfive {
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(120deg);
+        }
+
+        .csix{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(150deg);
+        }
+
+        .cseven{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(180deg);
+        }
+
+        .ceight{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(210deg);
+        }
+
+        .cnine{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(240deg);
+        }
+
+
+        .cten{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(270deg);
+        }
+
+        .celeven{
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(300deg);
+        }
+
+        .ctwelve {
+          display: block;
+          position: absolute;
+          width: 8px;
+          height: 40%;
+          left: 48%;
+          top: -5%;
+          border-top: solid 15px lightblue;
+          transform-origin: 35% 90%;
+          z-index: 999; 
+          transform: rotate(330deg);
+        }
+
+
+          @-webkit-keyframes spin {
+            0% {  transform: rotateZ (0deg); }
+            100% {  transform: rotateZ (360deg); }  
+          }
+            
+          .albumname {
+            font-size: 40px;
+            float: left;
+            line-height: 60px;
+            padding-left: 19px;
+              font-family: "Karla", sans-serif;
+            font-weight: bold;
+            margin-bottom: 40px;
+            margin-top: -25px;
+            color: black;
+          }
+.divide {
+  background-color: lightgray; 
+  height: 10px;
+}
+
+.artist {
+  font-size: 30px;
+            float: right;
+            line-height: 60px;
+            padding-left: 19px;
+              font-family: "Karla", sans-serif;
+            font-weight: bold;
+            margin-bottom: 40px;
+            margin-top: -25px;
+            color: black;
+            margin-right: 30px;
+}
+          
+          
+
+          
+          .window {
+            position: absolute;
+            overflow: hidden;
+            background: white;
+            width: 244px;
+            height: 120px;
+            left: 50%;
+            margin-left: -122px;
+            margin-top: 30px;
+            border-radius:10px;
+          }
+
+          .reel {
+            border-radius: 50%;
+            width: 380px;
+            height: 380px; 
+            background:  black;
+            position: absolute;
+            top: -120px;
+            animation: spin 0.8s infinite linear;
+            left: -300px
+          }
+
+        
+          .reeltwo {
+            border-radius: 50%;
+            width: 380px;
+            height: 380px; 
+            background:  black;
+            position: absolute;
+            top: -120px;
+            animation: spin 0.8s infinite linear;
+            right: -300px
+          }
+
+          .sticker-bottom {
+            margin: 10px 10px;
+            border-top: 2px solid #363844;
+            border-bottom: 2px solid #363844;
+            overflow: auto;
+          }
+
+          .one {
+            border: 0;
+            height: 6px;
+            background: #363844;
+            width: 1140px; 
+            margin-top: 20px;
+          }
+
+          .two {
+            border: 0;
+            height: 6px;
+            background: #363844;
+            width: 1140px; 
+            margin-top: 35px;
+          }
+
+
+       
+
+          .cassette-bottom-outer {
+            position: absolute;
+            left: 50%;
+            margin-left: -385px;
+            bottom: 0;
+            border-bottom: 160px solid gray;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            height: 0;
+            width: 700px;
+            
+          }
+
+          .cassette-bottom {
+            border-bottom: 160px solid #444444;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            position: relative;
+            margin-left: -30px;
+            margin-top: 10px;
+            height: 0;
+            width: 680px;
+          }
+
+          .button{
+            position: relative;
+            width: 60px;
+            height: 45px;
+            background:black;
+            border-radius: 50% / 10%;
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            margin-top: 10px;
+            top: -3px; 
+            left: -21px;
+            margin-left: 20px;
+
+          }
+          .button:before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            right: -5%;
+            left: -5%;
+            background: inherit;
+            border-radius: 5% / 50%;
+          }
+
+          .buttons{
+            position: relative;
+            width: 60px;
+            height: 45px;
+            background:white;
+            border-radius: 50% / 10%;
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            margin-top: 10px;
+            top: -75px; 
+            left: 120px;
+            margin-left: 20px;
+
+          }
+          .buttons:before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            right: -5%;
+            left: -5%;
+            background: inherit;
+            border-radius: 5% / 50%;
+          }
+
+          
+
+
+
+          .buttontwo{
+            position: relative;
+            width: 60px;
+            height: 45px;
+            background:black;
+            border-radius: 50% / 10%;
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: -19px;
+            margin-left: 20px;
+            top: -3px;
+          }
+          .buttontwo:before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            right: -5%;
+            left: -5%;
+            background: inherit;
+            border-radius: 5% / 50%;
+          }
+        
+          .buttonstwo{
+            position: relative;
+            width: 60px;
+            height: 45px;
+            background: white;
+            border-radius: 50% / 10%;
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: 460px;
+            margin-left: 20px;
+            top: -120px;
+          }
+          .buttonstwo:before {
+            content: '';
+            position: absolute;
+            top: 10%;
+            bottom: 10%;
+            right: -5%;
+            left: -5%;
+            background: inherit;
+            border-radius: 5% / 50%;
+          }
+        
+        
+          .buttonthree{
+            width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%; 
+            position: relative;          
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: -21px;
+            margin-left: 20px;
+            top: -3px;
+          }
+
+          .buttonsthree{
+            width: 50px;
+  height: 50px;
+  background:white;
+  border-radius: 50%; 
+            position: relative;          
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: 10px;
+            margin-left: 20px;
+            top: -120px;
+          }
+
+          .buttonfour{
+            width: 50px;
+  height: 50px;
+  background: black; 
+  border-radius: 50%; 
+            position: relative;          
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: -18px;
+            margin-left: 20px;
+            top: -3px;
+          }
+        
+          .buttonsfour{
+            width: 50px;
+  height: 50px;
+  background: white;
+  border-radius: 50%; 
+            position: relative;          
+            color: white;
+            text-align: center;
+            text-indent: .1em;
+            left: 550px;
+            margin-left: 20px;
+            top: -60px;
+          }
+        
+        
+          .screw {
+            bottom: 0px;
+            left: 50%;
+            margin-left: -10px;
+            top: 20px;
+          }
+
+        
+          .audio {
+        margin-left: 1px;
+        margin-top: 10px;
+        width: 100%;
+position: fixed;
+background-color: gray;
+border-style: ridge;
+border-width: 1px;
+border-color: black;
+display: block;
+height: 15px;
+          }
+          
+.back2 {
+  font-family: "Karla", sans-serif;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-size: 30px;
+  border-style: inset;
+  border-width: 5px;
+  border-color: grey;
+  background-color: darkgrey;
+  color: white;
+  padding: 5px;
+}
+       
+          /*.two {
+            border: 0;
+            height: 3px;
+            background: #363844;
+            width: 170px; 
+            float: right;
+          }
+
+
+  /* left: 50px;
+    top: 79.5px; */
+    /*$bg-color: #efd1b7;
+    $orange: #d55e40;
+    $gray: #363844;
+    $light-gray: #756046;
+    $red: #8b392e;
+    $yellow: #f3ae53;
+    $blue: #449ba2;
+    $white: #ffffff;
+    /* optional: try CSS Gradients: https:www.css-gradient.com/ */
+
+    /* optional: try CSS dropshadows: https:getcssscan.com/css-box-shadow-examples */
+   
+
+
