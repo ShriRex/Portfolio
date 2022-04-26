@@ -30,6 +30,8 @@ toggle.addEventListener("click", () => {
    } else window.localStorage.setItem("theme", "dark");
 });
 
+
+
 const themeSwitcher = document.querySelector('#theme');
 
 function switchTheme() {

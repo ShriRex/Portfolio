@@ -1,11 +1,18 @@
+:root {
+  --black: #B983FF;
+  --white: #F7F7F7; 
+  --text: #000;
+}
+
 
 body {
-	background-color: #fff;
-	color: #000;
+	background-color: var(--white);
+	color: var(--text);
   font-family: short-films, sans-serif;
   text-decoration: none;
   scroll-behavior: smooth;
 }
+
 
 * {
     box-sizing: border-box;
@@ -53,12 +60,14 @@ font-style: normal;
     font-weight: 400;
     font-family: short-films, sans-serif;
     font-style: normal;
+    color: #000;
     }
 
   .about2 {
     font-size: 1.15vw;
     font-style: normal;
     font-family: short-films, sans-serif;
+    color: #000;
     }
 
   .top{
@@ -107,8 +116,8 @@ nav {
 }
 
 a {
-    color: #000;
     text-decoration: none;
+    color: currentColor;
 }
 
 a:hover {
@@ -133,32 +142,30 @@ a:hover {
 
 .mai2 {
   padding: 1vw;
+  padding-left: 0.25vw;
   font-weight: 500;
-  float: left;
-  padding-top: 0.05vw;
 }
 
 .ma {
   padding: 1vw;
   padding-left: 0.05vw;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 700;
 }
 
-a {
-  text-decoration: none;
-
-}
 
 header {
-  background-color: white;
+  background-color: none;
   z-index: 10000;
-  position: fixed;
-  top: 0;
-    width: 100vw;
-    display: flex;
-    padding: 1vw;
 }
+
+.container {
+  width: 37.5%;
+  height: 85vh;
+  display: inline-block;
+  position: relative;
+}
+
 
 .container {
   width: 75%;
